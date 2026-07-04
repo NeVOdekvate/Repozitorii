@@ -7,7 +7,10 @@
 1. Создать и активировать виртуальное окружение:
    ```
    python -m venv venv
+   # PowerShell:
    venv\Scripts\Activate.ps1
+   # Git Bash:
+   source venv/Scripts/activate
    ```
 2. Установить зависимости:
    ```
