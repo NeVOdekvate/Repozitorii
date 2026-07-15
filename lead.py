@@ -4,6 +4,7 @@ class Lead:
     def __init__(self, name):
         self.name = name
 
+
 NEW_NAME = "Иван"
 
 
@@ -16,4 +17,4 @@ if __name__ == "__main__":
     print("До изменения:", lead1.name)
 
     change_name(lead1)
-    print("После изменения:", lead1.name)        
+    print("После изменения:", lead1.name)

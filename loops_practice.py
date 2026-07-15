@@ -1,6 +1,8 @@
 """Практика по циклам: решения оформлены методами одного класса."""
+
 import random
 import time
+
 NUMBERS_START = 1
 NUMBERS_END = 8
 BREAK_AT = 5
@@ -13,6 +15,7 @@ LOAD_MIN = 0
 LOAD_MAX = 100
 LOAD_WARNING_THRESHOLD = 85
 PAUSE_SECONDS = 0.2
+
 
 class LoopsPractice:
     """Решения задач по циклам."""
@@ -31,7 +34,6 @@ class LoopsPractice:
         for word in words:
             print(word)
 
-    
     def monitor_rostics_load(self):
         """Имитирует мониторинг нагрузки Rostics: 10 итераций со случайной нагрузкой."""
         iteration = 0
@@ -42,6 +44,8 @@ class LoopsPractice:
                 print("ПРЕДУПРЕЖДЕНИЕ: нагрузка превышает порог!")
             time.sleep(PAUSE_SECONDS)
             iteration += 1
+
+
 if __name__ == "__main__":
     practice = LoopsPractice()
     practice.print_numbers_until_break()
