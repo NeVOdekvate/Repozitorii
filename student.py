@@ -35,4 +35,4 @@ if __name__ == "__main__":
     print("Средний балл выше", GRADE_THRESHOLD, ":")
     top_students = get_top_students(students, GRADE_THRESHOLD)
     for student in top_students:
-        print(student.name)        
+        print(student.name)
